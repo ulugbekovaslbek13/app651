@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP651 Enterprise Terminal Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dashboard-wrapper">
+        <aside class="sidebar">
+            <div class="logo">CoreEngine v4.0</div>
+            <nav class="nav-menu">
+                <a href="#" class="active">Metrics Analytics</a>
+                <a href="#">System Integrity</a>
+                <a href="#">Database Clusters</a>
+                <a href="#">API Gateway Control</a>
+            </nav>
+        </aside>
+        
+        <main class="main-content">
+            <header class="top-bar">
+                <h2>Real-Time Cloud Diagnostics</h2>
+                <div class="user-profile">Admin Account</div>
+            </header>
+            
+            <section class="metrics-grid">
+                <div class="card card-green">
+                    <h3>API Response Stream</h3>
+                    <p class="value" id="api-status">24 ms</p>
+                </div>
+                <div class="card card-blue">
+                    <h3>Thread Execution Nodes</h3>
+                    <p class="value">99.87% Stable</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
